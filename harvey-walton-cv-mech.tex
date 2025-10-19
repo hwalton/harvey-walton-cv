@@ -1,0 +1,119 @@
+%------------------------
+% Harvey Walton - CV (ATS friendly, single page)
+%------------------------
+
+\documentclass[a4paper,10pt]{article}
+
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header/footer
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.4in}
+\addtolength{\evensidemargin}{-0.4in}
+\addtolength{\textwidth}{0.8in}
+\addtolength{\topmargin}{-0.6in}
+\addtolength{\textheight}{1.2in}
+
+\urlstyle{same}
+\raggedright
+
+% Section formatting
+\titleformat{\section}{\scshape\large}{}{0em}{}[\titlerule]
+
+% Custom commands
+\newcommand{\resumeSubheading}[4]{
+  \vspace{1pt}\textbf{#1} \hfill #2 \\
+  \textit{#3} \hfill \textit{#4}
+}
+
+\newcommand{\resumeItem}[1]{\item{#1}}
+
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeItemListEnd}{\end{itemize}}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE Harvey Walton}} & \href{mailto:harveywalton.hw@gmail.com}{harveywalton.hw@gmail.com} \\
+  \href{https://linkedin.com/in/harvey-walton}{linkedin.com/in/harvey-walton} & 07854275328 \\
+  \href{https://github.com/hwalton}{github.com/hwalton} & Oxford \\
+\end{tabular*}
+
+\vspace{6pt}
+\textbf{1st Class MEng Mechanical Engineer | Quality Assurance | Operations Improvement }
+
+%----------EXPERIENCE-----------------
+\section{Experience}
+
+\resumeSubheading{Year in Industry}{Sept 2022 -- June 2023}{HP Consulting Services Ltd}{Jet Engine Balancing Tools}
+\resumeItemListStart
+    \resumeItem{Led projects designing and manufacturing lifting tools supplied to Rolls-Royce.}
+    \resumeItem{Certified designs for UKCA and CE compliance against industry standards as part of quality assurance responsibilities.}
+    \resumeItem{Produced CAD models and detailed engineering drawings using SolidWorks and Siemens NX.}
+    \resumeItem{Verified designs under load cases through Finite Element Analysis (FEA).}
+    \resumeItem{Inspected dimensional and geometric tolerances (GD\&T) to ensure compliance with engineering drawings.}
+\resumeItemListEnd
+
+\resumeSubheading{Maths Tutor}{Aug 2024 -- Present}{Oxford International Study Centre}{Oxford, UK}
+\resumeItemListStart
+  \resumeItem{Presented complex concepts to a non-technical audience on a daily basis.}
+\resumeItemListEnd
+
+\resumeSubheading{Private Tutor}{Sept 2024 -- Present}{Freelance}{Remote}
+\resumeItemListStart
+  \resumeItem{Developed a ``Process First'' approach to business operations through documentation of day-to-day activities in versioned standard operating procedures for reliable, repeatable delivery.}
+  \resumeItem{Programmed scripts to automate testing and deployment, speeding up workflows and development cycles.}
+  \resumeItem{Put into production an interactive web app to deliver flashcards to students.}
+  \resumeItem{Managed client relationships to ensure delivery satisfied client requirements.}
+\resumeItemListEnd
+
+%----------EDUCATION-----------------
+\section{Education}
+
+\resumeSubheading{University of Sheffield}{2019 -- 2024}{MEng Mechanical Engineering with a Year in Industry, 1st Class (Hons)}{Sheffield, UK}
+\resumeItemListStart
+  \resumeItem{Dissertation: Used the paradigm of probabilistic numerics to make Fourier analysis of dynamic systems more robust to noise than when using the Fast Fourier Transform (Supervisor: Tim Rogers).}
+  \resumeItem{Awarded 2020-21 Mechanical Engineers' Prize for best examination performance in the department by a second-year undergraduate.}
+  \resumeItem{Relevant Modules: Computational and Numerical Methods (80\%), Control Engineering (94\%), Mathematics for Engineering Modelling (97\%), Advanced Dynamics (86\%).}
+\resumeItemListEnd
+
+\resumeSubheading{A-Levels \& GCSEs}{2014 -- 2019}{}{Oxford, UK}
+
+\vspace{-2em}
+
+\resumeItemListStart
+  \resumeItem{A-Levels: Mathematics (A*), Further Mathematics (A), Physics (A*).}
+  \resumeItem{GCSEs: Mathematics (9), English Language (6), Physics (A*) and 8 Others.}
+\resumeItemListEnd
+
+%----------ACHIEVEMENTS-----------------
+\section{Additional Achievements}
+
+\resumeItemListStart
+  \resumeItem{Certified in drafting with the SolidWorks Associate qualification.}
+  \resumeItem{Treasurer of University of Sheffield Muay Thai Club (2023-24) -- restructured business model to provide more cash up-front and significantly boost profit margins.}
+\resumeItemListEnd
+
+%----------INTERESTS-----------------
+\section{Personal Interests}
+
+\resumeItemListStart
+  \resumeItem{Lifting Weights -- reflecting discipline and long-term consistency.}
+\resumeItemListEnd
+
+%----------REFERENCES-----------------
+\section{References}
+Available on request (Christopher Tye, Managing Director, HP Consulting Services Ltd).
+
+\end{document}

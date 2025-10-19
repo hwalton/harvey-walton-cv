@@ -1,0 +1,124 @@
+%------------------------
+% Harvey Walton - CV (ATS friendly, single page)
+%------------------------
+
+\documentclass[a4paper,10pt]{article}
+
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header/footer
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.4in}
+\addtolength{\evensidemargin}{-0.4in}
+\addtolength{\textwidth}{0.8in}
+\addtolength{\topmargin}{-0.6in}
+\addtolength{\textheight}{1.2in}
+
+\urlstyle{same}
+\raggedright
+
+% Section formatting
+\titleformat{\section}{\scshape\large}{}{0em}{}[\titlerule]
+
+% Custom commands
+\newcommand{\resumeSubheading}[4]{
+  \vspace{1pt}\textbf{#1} \hfill #2 \\
+  \textit{#3} \hfill \textit{#4}
+}
+
+\newcommand{\resumeItem}[1]{\item{#1}}
+
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*,itemsep=0pt,parsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-3pt}}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE Harvey Walton}} & \href{mailto:harveywalton.hw@gmail.com}{harveywalton.hw@gmail.com} \\
+  \href{https://linkedin.com/in/harvey-walton}{linkedin.com/in/harvey-walton} & 07854275328 \\
+  \href{https://github.com/hwalton}{github.com/hwalton} & Oxford \\
+\end{tabular*}
+
+\vspace{6pt}
+\textbf{Mechanical Engineer | Machine Learning | Python | Go }
+
+%----------EXPERIENCE-----------------
+\section{Experience}
+
+\resumeSubheading{Private Tutor}{Sept 2024 -- Present}{Freelance}{Remote}
+\resumeItemListStart
+  \resumeItem{Deployed a Go/HTMX web app to provide flashcards to my students (see \href{https://github.com/hwalton/flashcard-app-showcase}{github.com/hwalton}).}
+  \resumeItem{Programmed scripts to automate testing and deployment, speeding up workflows and development cycles.}
+  \resumeItem{Developed a ``Process First'' approach to business operations through documentation of day-to-day activities in versioned standard operating procedures for reliable, repeatable delivery.}
+  \resumeItem{Managed client relationships to ensure delivery satisfied client requirements.}
+\resumeItemListEnd
+
+\resumeSubheading{Maths Tutor}{Aug 2024 -- Present}{Oxford International Study Centre}{Oxford, UK}
+\resumeItemListStart
+  \resumeItem{Presented complex concepts to a non-technical audience on a daily basis.}
+\resumeItemListEnd
+
+\resumeSubheading{Year in Industry}{Sept 2022 -- June 2023}{HP Consulting Services Ltd}{Jet Engine Balancing Tools}
+\resumeItemListStart
+    \resumeItem{Led projects designing and manufacturing lifting tools supplied to Rolls-Royce.}
+    \resumeItem{Certified designs for UKCA and CE compliance against industry standards as part of quality assurance responsibilities.}
+\resumeItemListEnd
+
+%----------EDUCATION-----------------
+\section{Education}
+
+\resumeSubheading{University of Sheffield}{2019 -- 2024}{MEng Mechanical Engineering with a Year in Industry, 1st Class (Hons)}{Sheffield, UK}
+\resumeItemListStart
+  \resumeItem{Dissertation: A Python Machine Learning project using a custom-built probabilistic model
+(Gaussian Process) to improve Fourier analysis of dynamic mechanical systems. (Supervisor: Tim Rogers).}
+  \resumeItem{Awarded 2020-21 Mechanical Engineers' Prize for best examination performance in the department by a second-year undergraduate.}
+  \resumeItem{Relevant Modules: Computational and Numerical Methods (80\%), Control Engineering (94\%), Mathematics for Engineering Modelling (97\%), Advanced Dynamics (86\%).}
+\resumeItemListEnd
+
+\resumeSubheading{A-Levels \& GCSEs}{2014 -- 2019}{}{Oxford, UK}
+
+\vspace{-2em}
+
+\resumeItemListStart
+  \resumeItem{A-Levels: Mathematics (A*), Further Mathematics (A), Physics (A*).}
+  \resumeItem{GCSEs: Mathematics (9), English Language (6), Physics (A*) and 8 Others.}
+\resumeItemListEnd
+
+%----------PROJECTS-----------------
+\section{Personal Projects}
+\hfill\textit{Available at \href{https://github.com/hwalton}{github.com/hwalton}}
+
+\textbf{Quant GP}
+\resumeItemListStart
+  \resumeItem{Built a probabilistic forecasting model for stochastic financial data (Python, Scikit-Learn).}
+  \resumeItem{Designed an objective function to optimise portfolios under uncertainty for a subjective preference curve of outcomes.}
+\resumeItemListEnd
+
+\textbf{Gradient Boosted Regression}
+\resumeItemListStart
+  \resumeItem{Deployed a Scikit-Learn gradient boosting model (California Housing dataset) with a full MLOps workflow to AWS EKS.}
+  \resumeItem{Integrated MLflow, Airflow, Docker, Helm, and Kubernetes for orchestration and deployment.}
+\resumeItemListEnd
+
+\textbf{Xero Invoice Generator}
+\resumeItemListStart
+  \resumeItem{Created a Golang app integrating with Xero API to automate purchase order generation.}
+  \resumeItem{Implemented SQL migrations, authentication flows, and CI/CD via GitHub Actions.}
+\resumeItemListEnd
+
+%----------REFERENCES-----------------
+\section{References}
+Available on request (Christopher Tye, Managing Director, HP Consulting Services Ltd).
+
+\end{document}
