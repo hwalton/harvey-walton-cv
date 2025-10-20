@@ -2,7 +2,7 @@ I started my career with a Year in Industry, gaining hands on experience designi
 
 Although this led to high quality work, I felt that there was room to streamline the highly manual processes used to do this in order to get more out of the hard work put in.
 
-Therefore, through my machine learning final year project, and subsequent freelance work, I borrowed the best practices and workflow techniques of the software industry to learn how to optimize day-to-day operations by reducing errors and improving time efficiency.
+Therefore, through my machine learning final year project, and subsequent freelance work, I borrowed the best practices and workflow techniques pioneered by the software industry to learn how to optimise day-to-day operations by reducing errors and improving time efficiency.
 
 This includes comprehensive documentation of repeated tasks with Standard Operating Procedures (SOPs), automation with Scripts and custom User Interfaces, and Git version control with Continuous Integration and Continuous Deployment (CI/CD).
 
