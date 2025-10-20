@@ -1,0 +1,9 @@
+I started my career with a Year in Industry, gaining hands on experience designing and manufacturing high quality aviation tooling with precise tolerances, and certifying these items using quality assurance techniques.
+
+Although this led to high quality work, I felt that there was room to streamline the highly manual processes used to do this in order to get more out of the hard work put in.
+
+Therefore, through my machine learning final year project, and subsequent freelance work, I borrowed the best practices and workflow techniques of the software industry to learn how to optimize day-to-day operations by reducing errors and improving time efficiency.
+
+This includes comprehensive documentation of repeated tasks with Standard Operating Procedures (SOPs), automation with Scripts and custom User Interfaces, and Git version control with Continuous Integration and Continuous Deployment (CI/CD).
+
+Building up this process layer of a business is what allows it to maintain the quality of its output as it scales operations, and is what builds real enterprise value. I now wish to take on an Engineering role in a company where I can use these skills to improve the throughput of myself and my team, and help the business grow while continuing my professional development as an engineer.
